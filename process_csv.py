@@ -4,7 +4,7 @@ csv_file = csv.reader(open('train.csv', 'r'))
 total_num = 0
 id_list = []
 id_num = 0
-txt_file = open("train.txt", 'wb')
+txt_file = open("pic2train.txt", 'wb')
 index = 0
 for line in csv_file:
     # print line[0], line[1]
@@ -13,6 +13,7 @@ for line in csv_file:
     if total_num == 1:
         id_list.append(int(line[1]))
         index = id_num
+        txt_file.write(str(index) + ' ' + line[1] + '\n')
         id_num += 1
     else:
         if int(line[1]) in id_list:
@@ -22,8 +23,10 @@ for line in csv_file:
             index = id_num
             id_num += 1
             id_list.append(int(line[1]))
+            txt_file.write(str(index) + ' ' + line[1] + '\n')
             # print id_num
-    txt_file.write('{:0}.png'.format(int(line[0])) + ' ' + str(index) + '\n')
+    # txt_file.write(str(index) + ' ' + line[1] + '\n')
+    # txt_file.write('{:0}.png'.format(int(line[0])) + ' ' + str(index) + ' ' + line[1] + '\n')
     # if id_num == 100:
     #     break
 

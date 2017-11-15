@@ -1,0 +1,21 @@
+net: "/mnt/lustre/yangkunlin/kaggle/normal_model/normal.prototxt"
+
+
+display: 20
+average_loss: 20
+
+lr_policy: "multistep"
+base_lr: 0.1
+gamma: 0.1
+stepvalue: 600000
+stepvalue: 800000
+stepvalue: 900000
+max_iter: 1000000
+memory_opt: true
+
+momentum: 0.9
+weight_decay: 0.0005
+
+snapshot: 100000
+snapshot_prefix: "/mnt/lustre/yangkunlin/kaggle/normal_model/normal_kaggel"
+solver_mode: GPU
