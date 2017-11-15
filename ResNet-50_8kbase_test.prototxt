@@ -1,9 +1,25 @@
 name: "ResNet-50"
-input: "data"
-input_dim: 1
-input_dim: 3
-input_dim: 224
-input_dim: 224
+layer {
+  name: "data"
+  type: "ImageData"
+  top: "data"
+  top: "label"
+  transform_param {
+    mirror: false
+    mean_value: 103.939
+    mean_value: 116.779
+    mean_value: 123.68
+  }
+  image_data_param {
+    source: "/home/yangkunlin/storage/kaggle/test.txt"
+    batch_size: 20
+    new_height: 224
+    new_width: 224
+    shuffle: false
+    root_folder: "/home/yangkunlin/storage/kaggle/test/"
+  }
+}
+
 
 layer {
 	bottom: "data"

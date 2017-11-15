@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c3885b-55e2-460c-ae53-8ab2f55c56c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/process_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process_csv.py" afterPath="$PROJECT_DIR$/process_csv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ResNet-50_8kbase_test.prototxt" afterPath="$PROJECT_DIR$/ResNet-50_8kbase_test.prototxt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extract_fea.sh" afterPath="$PROJECT_DIR$/extract_fea.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,6 +113,7 @@
         <option value="$PROJECT_DIR$/process_csv.py" />
         <option value="$PROJECT_DIR$/process_testcsv.py" />
         <option value="$PROJECT_DIR$/process_test.py" />
+        <option value="$PROJECT_DIR$/extract_fea.sh" />
       </list>
     </option>
   </component>
@@ -784,6 +784,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlenet_v4_re224_trible4.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResNet-50_8kbase_test.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-991">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract_fea.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding />
         </state>
       </provider>
