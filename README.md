@@ -25,4 +25,7 @@ However, the result is bad. I think the param I used to finetune the model was t
 Of course, my training of inception_resnet_v2 had problems too. I didn't seperate the data for training and validation.
 I used all the data to train the model. No data augmentation. 
 The data is so big that I had use a lot of time to train the model from scratch.  
-The big model may be suitable for this game.
+The big model may be suitable for this game.  
+  
+  
+![](rank.png)
