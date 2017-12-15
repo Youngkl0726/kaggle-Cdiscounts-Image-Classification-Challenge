@@ -1,0 +1,22 @@
+net: "/mnt/lustre/yangkunlin/kaggle_15/model_incep_res_v2/inception_resnet_v2.prototxt"
+
+
+display: 50
+average_loss: 50
+
+lr_policy: "multistep"
+base_lr: 0.1
+gamma: 0.1
+stepvalue: 200000
+stepvalue: 250000
+stepvalue: 300000
+stepvalue: 350000
+max_iter: 400000
+memory_opt: true
+
+momentum: 0.9
+weight_decay: 0.0005
+
+snapshot: 50000
+snapshot_prefix: "/mnt/lustre/yangkunlin/kaggle_15/model_incep_res_v2/incep_res_v2/incep_res_v2_2"
+solver_mode: GPU
