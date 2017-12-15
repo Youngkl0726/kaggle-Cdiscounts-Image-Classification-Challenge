@@ -12,10 +12,10 @@ layer {
     mean_value: 123.68
   }
   image_data_param {
-    source: "/mnt/lustre/yangkunlin/kaggle/train.txt"
+    source: "/mnt/lustre/yangkunlin/kaggle_15/train.txt"
     batch_size: 1008
-    new_height: 96
-    new_width: 96
+    new_height: 196
+    new_width: 196
     shuffle: true
     root_folder: "/mnt/lustre/yangkunlin/kaggle_15/train/"
   }
@@ -17784,7 +17784,7 @@ layer { name: "drop7" type: "Dropout" bottom: "fc7_bn" top: "fc7_bn"
 layer {
   name: "fc8_jstl"
   type: "InnerProduct"
-  bottom: "fc7"
+  bottom: "fc7_bn"
   top: "fc8_jstl"
   param {
     lr_mult: 1

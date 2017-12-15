@@ -1,0 +1,4 @@
+result2.txt inception_resnet_v2_400000_2model
+result1.txt inception_resnet_v2_400000_1model
+result3.txt inception_resnet_v2_400000_1_512model
+result4.txt inception_resnet_v2_400000_2_finetunemodel

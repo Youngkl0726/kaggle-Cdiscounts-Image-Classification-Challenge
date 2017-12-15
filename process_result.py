@@ -3,7 +3,7 @@ import csv
 # total = 0
 # txt_file = open('result.txt', 'wb')
 # for i in xrange(36):
-#     npy_name = './n1/prob_{:0}.npy'.format(i)
+#     npy_name = './result/prob_{:0}.npy'.format(i)
 #     print npy_name
 #     npy = np.load(npy_name)
 #     len = npy.shape[0]
@@ -12,7 +12,7 @@ import csv
 #     for j in xrange(len):
 #         res = int(npy[j][0])
 #         txt_file.write(str(res)+'\n')
-#
+#     print total
 # print total
 
 def get_id(filename):
