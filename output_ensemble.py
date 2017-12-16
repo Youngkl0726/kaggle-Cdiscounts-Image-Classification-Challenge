@@ -33,6 +33,9 @@ res_file_1 = open('result1.txt')
 res_file_2 = open('result2.txt')
 res_file_3 = open('result3.txt')
 res_file_4 = open('result4.txt')
+res_file_5 = open('result5.txt')
+res_file_6 = open('result6.txt')
+res_file_7 = open('result7.txt')
 for i in xrange(1768182):
 # for i in xrange(10):
     context = []
@@ -48,25 +51,35 @@ for i in xrange(1768182):
     line4 = res_file_4.readline()
     line4 = line4.strip()
     line4 = line4.split(" ")
+    line5 = res_file_5.readline()
+    line5 = line5.strip()
+    line5 = line5.split(" ")
+    line6 = res_file_6.readline()
+    line6 = line6.strip()
+    line6 = line6.split(" ")
+    line7 = res_file_7.readline()
+    line7 = line7.strip()
+    line7 = line7.split(" ")
     # print line1, line2, line3
     prob = []
-    prob.append(line1[0])
-    prob.append(line2[0])
-    prob.append(line3[0])
-    prob.append(line4[0])
+    prob.append(float(line1[0]))
+    # print type(line2[0])
+    prob.append(float(line2[0]))
+    prob.append(float(line3[0]))
+    prob.append(float(line4[0]))
+    prob.append(float(line5[0]))
+    prob.append(float(line6[0]))
+    prob.append(float(line7[0]))
     id = []
     id.append(line1[1])
     id.append(line2[1])
     id.append(line3[1])
     id.append(line4[1])
+    id.append(line5[1])
+    id.append(line6[1])
+    id.append(line7[1])
     # print prob.index(max(prob))
     ans_id = int(id[prob.index(max(prob))])
-
-    # if float(line1[0]) > float(line2[0]):
-    #     ans_id = int(line1[1])
-    # else:
-    #     ans_id = int(line2[1])
-    # print ans_id
 
     context.append(test_pic_name[i])
     context.append(id_cat[ans_id][1])
