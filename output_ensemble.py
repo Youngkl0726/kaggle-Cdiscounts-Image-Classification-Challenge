@@ -29,13 +29,13 @@ writer.writerow(fileheader)
 id_cat = get_id('pic2train.txt')
 test_pic_name = get_test_pic_name('test111.txt')
 
-res_file_1 = open('result1.txt')
-res_file_2 = open('result2.txt')
-res_file_3 = open('result3.txt')
-res_file_4 = open('result4.txt')
-res_file_5 = open('result5.txt')
-res_file_6 = open('result6.txt')
-res_file_7 = open('result7.txt')
+res_file_1 = open('./result/result1.txt')
+res_file_2 = open('./result/result2.txt')
+res_file_3 = open('./result/result3.txt')
+res_file_4 = open('./result/result4.txt')
+res_file_5 = open('./result/result5.txt')
+res_file_6 = open('./result/result6.txt')
+res_file_7 = open('./result/result7.txt')
 for i in xrange(1768182):
 # for i in xrange(10):
     context = []
