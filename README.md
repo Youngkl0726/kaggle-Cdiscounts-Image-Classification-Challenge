@@ -34,6 +34,12 @@ The big model may be suitable for this game.
 The training is over. I got new models and one of them is the best. The models are described in 'read.txt'.  
 As in model3 said, the model finetuned for 100000 iterators is the best and gets the LB about 0.69.  
   
+#### FinalRank:
 ![](rank.png)  
      
+  
+#### BestSingleModel
 ![](BestSingleModel.png)
+  
+#### LateSubmissions
+![](LateSubmissions.png)
