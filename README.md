@@ -28,4 +28,12 @@ The data is so big that I had use a lot of time to train the model from scratch.
 The big model may be suitable for this game.  
   
   
-![](rank.png)
+
+  
+### Update
+The training is over. I got new models and one of them is the best. The models are described in 'read.txt'.  
+As in model3 said, the model finetuned for 100000 iterators is the best and gets the LB about 0.69.  
+  
+![](rank.png)  
+     
+![](BestSingleModel.png)
